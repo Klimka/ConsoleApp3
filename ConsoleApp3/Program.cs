@@ -17,9 +17,16 @@ namespace ConsoleApp3
             listing.Add(34);
             listing.Add(709);
 
+            listing.Remove(709);
+
             int k;
             for (k = 0; k < listing.Count; k++)
             Console.Write(listing[k] + " ");
+
+            Console.Write("Hello, World! ");
+
+            foreach (int element in listing)
+                Console.Write(element * 100 + " ");
 
             Console.ReadKey();
 
