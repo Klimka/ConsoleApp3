@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// чтобы справиться с домашкой я перепрохожу основы. постепенно наверстаю, все сделаю!
+// весь код который идет ниже пока что можно не читать, это тренировка.
+
 namespace ConsoleApp3
 {
 	class Program
@@ -27,6 +30,10 @@ namespace ConsoleApp3
 
             foreach (int element in listing)
                 Console.Write(element * 1000 + " ");
+
+            float[] numbers = { 23.4f, 34.45f, 21.23f, 59.67f, 89.27f };
+            foreach (float el in numbers)
+                Console.Write(el * 1000 + " ");
 
             Console.ReadKey();
 
