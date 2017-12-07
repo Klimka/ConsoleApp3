@@ -35,8 +35,28 @@ namespace ConsoleApp3
             foreach (float el in numbers)
                 Console.Write(el * 1000 + " ");
 
+            Writer("hello, bonjour!");
+
+            List<string> names = new List<string>();
+            names.Add("Janet");
+            names.Add("Jane");
+            names.Add("Jill");
+            names.Add("Judy");
+
+            foreach (string name in names)
+                Writer("hello, " + name + "!\n");
+
+
             Console.ReadKey();
 
         }
+
+        public static void Writer(string strr) {
+            Console.WriteLine(strr);
+        
+        }
+
+
+
     }
 }
