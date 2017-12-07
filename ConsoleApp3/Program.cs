@@ -26,7 +26,7 @@ namespace ConsoleApp3
             Console.Write("Hello, World! ");
 
             foreach (int element in listing)
-                Console.Write(element * 100 + " ");
+                Console.Write(element * 1000 + " ");
 
             Console.ReadKey();
 
