@@ -46,6 +46,10 @@ namespace ConsoleApp3
             foreach (string name in names)
                 Writer("hello, " + name + "!\n");
 
+            Console.WriteLine("введи 2 числа");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            int num2 = Convert.ToInt32(Console.ReadLine());
+            multiply(num1, num2);
 
             Console.ReadKey();
 
@@ -53,10 +57,12 @@ namespace ConsoleApp3
 
         public static void Writer(string strr) {
             Console.WriteLine(strr);
-        
         }
 
-
+        public static void multiply (int num1, int num2)
+        {
+            Console.Write("получилось " + num1 * num2);
+        }
 
     }
 }
